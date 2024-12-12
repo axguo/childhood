@@ -19,7 +19,7 @@ const sampler = new Tone.Sampler({
     },
     attack: 0.5,
     release: 1,
-    baseUrl: "core-memory/cello/",
+    baseUrl: "./cello/",
 }).toDestination();
 
 const pentatonic = ['F#1','A2', 'B2', 'C#3', 'E3', 'F#3', 'A3', 'C#4', 'E4'];
